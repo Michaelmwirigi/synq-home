@@ -1,0 +1,151 @@
+//Here you add the page structure
+body, p, h1, h2, h3, h4, h5, h6, a, span{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+}
+.ui.pink.button{
+  font-weight: 100;
+  font-size: 1em;
+  color: $white;
+  background-color: $pink;
+}
+.hidden.menu {
+  display: none;
+}
+
+.masthead {
+  &.segment {
+    height: 100vh;
+    background: linear-gradient(rgba(254,254,254,.5), rgba(254,254,254,.8)), url("../images/desert.jpg") bottom !important;
+    background-size: cover !important;
+     min-height: 600px;
+    padding: 0;
+  }
+  .ui.menu {
+    border-bottom: none !important;
+    .item.logo img {
+      margin-right: 1em;
+      width: 80px;
+    }
+    .right.item{
+      align-self: flex-start;
+    }
+    margin-left: 0.5em;
+  }
+  h1.ui.header {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    font-size: 2.2em;
+    color: $blue;
+    font-weight: 100;
+  }
+  h2 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 100;
+    color: $black;
+    padding: 0 10%;
+  }
+  strong{
+    color: $pink;
+  }
+  .button{
+    margin: 1rem 0;
+  }
+  .image{
+    padding-top: 1rem;
+  }
+}
+
+.ui.vertical.stripe {
+  background: $white;
+  padding: 2em 0em 3em;
+  &.features_section{
+    .ui.grid{
+      h3{
+        color: $blue;
+        margin-top: 0.5rem;
+      }
+      p{
+        font-size: 0.85em;
+      }
+      .ui.image{
+        width: 100px;
+      }
+    }
+  }
+  &.partners_section{
+    h2{
+      font-size: 1em;
+      font-weight: 100;
+      strong{
+        color: $pink;
+      }
+    }
+  }
+  .text.container{
+    text-align: center;
+  }
+  .floated.image {
+    clear: both;
+  }
+  h3 {
+    font-size: 1.1em;
+    margin: 2em 0 1em;
+    font-weight: 400;
+  }
+  h4{
+    font-size: 1.6em;
+    font-weight: 400;
+    margin:0 0 1em;
+    color: $blue;
+    .ui.divider{
+      width: 40px;
+      margin:1rem auto;
+      border-top: 2px solid rgba(227,80,184,0.5);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+  p{
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .horizontal.divider {
+    margin: 3em 0em;
+  }
+}
+
+.footer.segment {
+  padding: 2em 0em;
+  font-size: 0.8rem;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu {
+    .item, .menu {
+      display: none;
+    }
+    .toc.item {
+      display: block;
+    }
+  }
+  .masthead {
+    &.segment {
+      min-height: 350px;
+    }
+    h1.ui.header {
+      font-size: 2em;
+      margin-top: 1.5em;
+    }
+    h2 {
+      margin-top: 0.5em;
+      font-size: 1.5em;
+    }
+  }
+}

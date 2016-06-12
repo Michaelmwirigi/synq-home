@@ -1,0 +1,57 @@
+/* Colours */ 
+/* ==================================================== */
+$white:#fff;
+$black: #000;
+$brown:#a44d1b;
+$text-color:#888;
+$pink: #e350b8;
+$blue: #002da5;
+
+
+
+
+
+/* Mixins*/ 
+/* ==================================================== */
+@mixin box-sizing{
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  -o-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin animaxn{
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+
+@mixin link {
+  text-decoration: none;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+}
+  
+/* image */
+@mixin image {
+  width: 100%; 
+  height: auto; 
+  margin: 0; 
+  padding: 0;
+  border: 0; 
+  outline: none;
+}
+
+
