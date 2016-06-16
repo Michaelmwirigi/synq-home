@@ -15,7 +15,7 @@ body, p, h1, h2, h3, h4, h5, h6, a, span{
 .masthead {
   &.segment {
     height: 100vh;
-    background: linear-gradient(rgba(254,254,254,.5), rgba(254,254,254,.8)), url("../images/desert.jpg") bottom !important;
+    // background: linear-gradient(rgba(254,254,254,.5), rgba(254,254,254,.8)), url("../images/desert.jpg") bottom !important;
     background-size: cover !important;
      min-height: 600px;
     padding: 0;
@@ -112,6 +112,13 @@ body, p, h1, h2, h3, h4, h5, h6, a, span{
   .horizontal.divider {
     margin: 3em 0em;
   }
+}
+canvas{
+  width: inherit;
+  height:20rem;
+  padding:0;
+  margin:0;
+  overflow: hidden;
 }
 
 .footer.segment {
