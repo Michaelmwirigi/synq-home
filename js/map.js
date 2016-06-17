@@ -25,9 +25,9 @@ $(document)
 
 		var geometry = new THREE.Geometry();
 		var material = new THREE.PointsMaterial({
-			size: 5,
+			size: 3,
 			color: 0x002da5,
-			sizeAttenuation: false
+			sizeAttenuation: true
 		});
 		for (var y = 0, y2 = imagedata.height; y < y2; y += 2) {
 			for (var x = 0, x2 = imagedata.width; x < x2; x += 2) {
@@ -93,6 +93,7 @@ $(document)
 	var render = function(a) {
 
 		requestAnimationFrame(render);
+		points_space = particles.geometry.vertices.length;
 
 		for (var i = 0, j = particles.geometry.vertices.length; i < j; i++) {
 
