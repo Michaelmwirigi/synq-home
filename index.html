@@ -21,6 +21,8 @@
 
   <script type="text/javascript"  src="js/jquery.bxslider.js"></script>
 
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/supersized.3.2.7.js"></script>
   
@@ -35,24 +37,24 @@
 </head>
 <body>
 
-<!-- Following Menu
+<!-- Following Menu -->
 <div class="ui top fixed hidden menu">
   <div class="ui container">
     <div class="right menu">
-      <a class="item">About</a>
-      <a class="item">Features</a>
-      <a class="item">Reach</a>
-      <a class="item">Contact us</a>
+      <a class="item smoothScroll" href="#about">About</a>
+      <a class="item smoothScroll" href="#features">Features</a>
+      <a class="item smoothScroll" href="#reach">Reach</a>
+      <a class="item smoothScroll" href="#contact_us">Contact us</a>
     </div>
   </div>
 </div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  <a class="item">About</a>
-  <a class="item">Features</a>
-  <a class="item">Reach</a>
-  <a class="item">Contact us</a>
+  <a class="item smoothScroll" href="#about">About</a>
+  <a class="item smoothScroll" href="#features">Features</a>
+  <a class="item smoothScroll" href="#reach">Reach</a>
+  <a class="item smoothScroll" href="#contact_us">Contact us</a>
 </div>
 
 
@@ -69,10 +71,10 @@
           <img src="images/logo.png">
         </a>
         <div class="right item">
-          <a class="item">About</a>
-          <a class="item">Features</a>
-          <a class="item">Reach</a>
-          <a class="item">Contact us</a>
+          <a class="item smoothScroll" href="#about">About</a>
+          <a class="item smoothScroll" href="#features">Features</a>
+          <a class="item smoothScroll" href="#reach">Reach</a>
+          <a class="item smoothScroll" href="#contact_us">Contact us</a>
         </div>
       </div>
     </div>
@@ -89,7 +91,7 @@
     </div>
 
   </section>
-  <section class="ui vertical stripe segment">
+  <section class="ui vertical stripe segment" id="about">
     <div class="ui text container">
       <h3>ABOUT SYNQ</h3>
       <h4>
@@ -100,7 +102,7 @@
     </div>
   </section>
 
-  <section class="ui vertical stripe segment features_section">
+  <section class="ui vertical stripe segment features_section" id="features">
     <div class="ui text container">
        <h3>FEATURES</h3>
       <h4>
@@ -127,7 +129,7 @@
       </div>
   </section>
 
-  <section class="ui vertical stripe segment partners_section">
+  <section class="ui vertical stripe segment partners_section" id="reach">
     <div class="ui text container">
        <h3>PARTNERS/CARRIERS/COUNTRIES</h3>
       <h4>
@@ -175,7 +177,7 @@
       </div>
   </section>
 
-  <section class="ui page centered grid contact_text">
+  <section class="ui page centered grid contact_text" id="contact_us">
     <div class="ui vertical stripe segment">
       <div class="ui text container">
         <h4>
