@@ -18,7 +18,7 @@ $(document)
       auto: true,
       controls: false,
       pager: false,
-      pause: 2000
+      pause: 18000
     });
 
     // create sidebar and attach to menu open

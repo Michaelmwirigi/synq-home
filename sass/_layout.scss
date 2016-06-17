@@ -74,6 +74,38 @@ body, p, h1, h2, h3, h4, h5, h6, a, span{
     }
   }
   &.partners_section{
+    .bx-wrapper{
+      position: absolute;
+      top: 37%;
+      .testimonial{
+        height: 100%;
+        .ui.container{
+          background: radial-gradient(rgba(254,254,254,.9), rgba(254,254,254,.3));
+          border-radius: 10px;
+          padding-bottom: 1rem;
+        }
+        h3{
+          margin: 1rem;
+          font-style: italic;
+          font-size: 1.1rem;
+        }
+        .header{
+          margin: 0;
+          font-weight: 600;
+
+        }
+        img{
+          height: 90px;
+        }
+      }
+    }
+    canvas{
+      width: inherit;
+      height:15rem;
+      padding:0;
+      margin:0;
+      overflow: hidden;
+    }
     h2{
       font-size: 1em;
       font-weight: 100;
@@ -112,13 +144,6 @@ body, p, h1, h2, h3, h4, h5, h6, a, span{
   .horizontal.divider {
     margin: 3em 0em;
   }
-}
-canvas{
-  width: inherit;
-  height:20rem;
-  padding:0;
-  margin:0;
-  overflow: hidden;
 }
 
 .accordion{

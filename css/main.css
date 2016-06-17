@@ -2037,6 +2037,30 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
     font-size: 0.85em; }
   .ui.vertical.stripe.features_section .ui.grid .ui.image {
     width: 100px; }
+  .ui.vertical.stripe.partners_section .bx-wrapper {
+    position: absolute;
+    top: 37%; }
+    .ui.vertical.stripe.partners_section .bx-wrapper .testimonial {
+      height: 100%; }
+      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial .ui.container {
+        background: radial-gradient(rgba(254, 254, 254, 0.9), rgba(254, 254, 254, 0.3));
+        border-radius: 10px;
+        padding-bottom: 1rem; }
+      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial h3 {
+        margin: 1rem;
+        font-style: italic;
+        font-size: 1.1rem; }
+      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial .header {
+        margin: 0;
+        font-weight: 600; }
+      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial img {
+        height: 90px; }
+  .ui.vertical.stripe.partners_section canvas {
+    width: inherit;
+    height: 15rem;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; }
   .ui.vertical.stripe.partners_section h2 {
     font-size: 1em;
     font-weight: 100; }
@@ -2065,13 +2089,6 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
     line-height: 1.5em; }
   .ui.vertical.stripe .horizontal.divider {
     margin: 3em 0em; }
-
-canvas {
-  width: inherit;
-  height: 20rem;
-  padding: 0;
-  margin: 0;
-  overflow: hidden; }
 
 .accordion {
   padding: 6rem 0;
