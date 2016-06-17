@@ -121,9 +121,32 @@ canvas{
   overflow: hidden;
 }
 
+.accordion{
+    padding: 6rem 0;
+    width: 100%;
+    .form{
+      margin: 6rem 0;
+    }
+  }
+  .contact_text{
+    margin: 0 !important;
+  }
+  .contact_form{
+    margin: 0 !important;
+    background: linear-gradient(rgba(254,254,254,.5), rgba(254,254,254,.8)), url("../images/typewriter.jpg") bottom !important;
+    .accordion{
+      padding: 4rem;
+      .form{
+        margin: 4rem 8rem;
+        text-align: left;
+      }
+    }
+  }
+
 .footer.segment {
   padding: 2em 0em;
   font-size: 0.8rem;
+  background: #ffffff !important;
 }
 
 .secondary.pointing.menu .toc.item {

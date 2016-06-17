@@ -2073,9 +2073,28 @@ canvas {
   margin: 0;
   overflow: hidden; }
 
+.accordion {
+  padding: 6rem 0;
+  width: 100%; }
+  .accordion .form {
+    margin: 6rem 0; }
+
+.contact_text {
+  margin: 0 !important; }
+
+.contact_form {
+  margin: 0 !important;
+  background: linear-gradient(rgba(254, 254, 254, 0.5), rgba(254, 254, 254, 0.8)), url("../images/typewriter.jpg") bottom !important; }
+  .contact_form .accordion {
+    padding: 4rem; }
+    .contact_form .accordion .form {
+      margin: 4rem 8rem;
+      text-align: left; }
+
 .footer.segment {
   padding: 2em 0em;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  background: #ffffff !important; }
 
 .secondary.pointing.menu .toc.item {
   display: none; }

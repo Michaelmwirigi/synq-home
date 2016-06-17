@@ -14,10 +14,20 @@ $(document)
       })
     ;
 
+    $('.testimonial').bxSlider({
+      auto: true,
+      controls: false,
+      pager: false,
+      pause: 2000
+    });
+
     // create sidebar and attach to menu open
     $('.ui.sidebar')
       .sidebar('attach events', '.toc.item')
     ;
+
+    /////form accordion////////////
+    $('.ui.accordion').accordion();
 
       
       jQuery(function($){

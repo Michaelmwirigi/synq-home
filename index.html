@@ -11,22 +11,26 @@
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
 
   <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" media="screen" />
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+  <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
 
 
   <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript"  src="js/semantic.js"></script>
 
-    <script type="text/javascript" src="js/supersized.3.2.7.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript"  src="js/jquery.bxslider.js"></script>
+
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/supersized.3.2.7.js"></script>
   
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/map.js"></script>
-  <script type="text/javascript"  src="js/semantic.js"></script>
   
   
 </head>
@@ -134,46 +138,88 @@
       <h2>With coverage all over <strong>Africa</strong> and the <strong>Middle East</strong> and unbeatable flexible pricing.</h2>
     </div>
 
-    <div class="ui centered grid">
-      <canvas id="map" class="ten wide column" style="height: 1000px">
-       
-      </canvas>
-      <div class="six wide column">
-        ffdbgfnhgjmhjmhngbfdvdsgg vfdvfgbgnb vfbgnb
+    
+      <div class="ui basic segment">
+        <canvas id="map" class="sixteen wide column"></canvas>
+        <div class="testimonial">
+          <h3 class="ui text container">
+            what people are saying about us
+            <img src="logo" alt="Logo">
+          </h3>
+          <h3 class="ui text container">
+            what people are saying about us 2
+            <img src="logo" alt="Logo">
+          </h3>
+          <h3 class="ui text container">
+            what people are saying about us 3
+            <img src="logo" alt="Logo">
+          </h3>
+        </div>
+      </div>
+  </section>
+
+  <section class="ui page centered grid contact_text">
+    <div class="ui vertical stripe segment">
+      <div class="ui text container">
+        <h4>
+          Say Hello
+          <div class="ui divider"></div>
+        </h4>
+        <p>It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. </p>
       </div>
     </div>
-
-    
   </section>
-
-  <section class="ui vertical stripe segment">
-    <div class="ui text container">
-      <h4>
-        Say Hello
-        <div class="ui divider"></div>
-      </h4>
-      <p>It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. </p>
+  <section class="ui page centered grid contact_form">
+    <div class="ui accordion">
+      <div class="ui pink button title">
+        CONTACT US
+      </div>
+        <form class="ui form content">
+          <div class="fields">
+            <div class="eight wide field">
+              <label>Name</label>
+              <input type="text" name="f_name" placeholder="First name">
+            </div>
+            <div class="eight wide field">
+              <label class="label_placeholder">Last name</label>
+              <input type="text" name="l_name" placeholder="Last Name">
+            </div>
+            
+          </div>
+          <div class="field">
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="Email address">
+          </div>
+          <div class="field">
+            <label>Message</label>
+              <textarea type="text" name="message" placeholder="Talk to us"></textarea>
+          </div>
+          <div class="field">
+            <button class="ui submit green button">Submit</button>
+          </div>
+          </div>
+        </form>
     </div>
   </section>
 
 
-  <div class="ui inverted vertical footer segment">
+  <div class="ui vertical footer segment">
     <div class="ui container">
-      <div class="ui stackable inverted divided equal height stackable grid">
+      <div class="ui stackable divided equal height stackable grid">
         <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
-          <div class="ui inverted link list">
+          <h4 class="ui header">About</h4>
+          <div class="ui link list">
             <a href="#" class="item">Sitemap</a>
           </div>
         </div>
         <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
-          <div class="ui inverted link list">
+          <h4 class="ui header">Services</h4>
+          <div class="ui link list">
             <a href="#" class="item">Banana Pre-Order</a>
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
+          <h4 class="ui header">Footer Header</h4>
           <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>
