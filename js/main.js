@@ -63,10 +63,10 @@ $(document)
           thumb_links       : 1,      // Individual thumb links for each slide
           thumbnail_navigation    :   0,      // Thumbnail navigation
           slides          :   [     // Slideshow Images
-                            {image : 'images/desert.jpg', title : 'Image Credit: Maria Kazvan'},
-                            {image : 'images/cell-tower.jpg', title : 'Image Credit: Maria Kazvan'},  
-                            {image : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/slides/kazvan-3.jpg', title : 'Image Credit: Maria Kazvan'},
-                            {image : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/slides/wojno-1.jpg', title : 'Image Credit: Colin Wojno'},
+                            {image : 'images/desert.jpg'},
+                            {image : 'images/cell-tower.jpg'},  
+                            {image : 'images/cell-tower2.jpg'}, 
+                            {image : 'images/phone.jpg'}, 
                         ],
                         
           // Theme Options         

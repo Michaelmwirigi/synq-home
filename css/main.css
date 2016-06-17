@@ -2000,6 +2000,8 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
   background-size: cover !important;
   min-height: 600px;
   padding: 0; }
+.masthead #supersized {
+  opacity: 0.4; }
 .masthead .ui.menu {
   border-bottom: none !important;
   margin-left: 0.5em; }
