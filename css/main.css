@@ -1986,6 +1986,9 @@ a:active {
 body, p, h1, h2, h3, h4, h5, h6, a, span {
   font-family: "Open Sans", Helvetica, Arial, sans-serif !important; }
 
+body {
+  height: inherit !important; }
+
 .ui.pink.button {
   font-weight: 100;
   font-size: 1em;
@@ -1994,6 +1997,22 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
 
 .hidden.menu {
   display: none; }
+
+h3 {
+  font-size: 1.1em;
+  margin: 2em 0 1em;
+  font-weight: 400; }
+
+h4 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 0 0 1em;
+  color: #002da5; }
+  h4 .ui.divider {
+    width: 40px;
+    margin: 1rem auto;
+    border-top: 2px solid rgba(227, 80, 184, 0.5) !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important; }
 
 .masthead.segment {
   height: 100vh;
@@ -2011,7 +2030,7 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
   .masthead .ui.menu .right.item {
     align-self: flex-start; }
 .masthead h1.ui.header {
-  margin-top: 0.5em;
+  margin-top: 3em;
   margin-bottom: 0em;
   font-size: 2.2em;
   color: #002da5;
@@ -2031,14 +2050,27 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
 
 .ui.vertical.stripe {
   background: #fff;
-  padding: 2em 0em 3em; }
-  .ui.vertical.stripe.features_section .ui.grid h3 {
-    color: #002da5;
-    margin-top: 0.5rem; }
-  .ui.vertical.stripe.features_section .ui.grid p {
-    font-size: 0.85em; }
-  .ui.vertical.stripe.features_section .ui.grid .ui.image {
-    width: 100px; }
+  padding: 0em 0em 5em; }
+  .ui.vertical.stripe.about_section .header_text {
+    padding: 3rem 0; }
+  .ui.vertical.stripe.about_section .text.container {
+    padding-top: 0; }
+  .ui.vertical.stripe.features_section .header_text {
+    background-image: url("../images/light.jpg"); }
+  .ui.vertical.stripe.features_section .ui.grid {
+    padding-top: 5rem; }
+    .ui.vertical.stripe.features_section .ui.grid .column {
+      text-align: center; }
+    .ui.vertical.stripe.features_section .ui.grid h3 {
+      color: #002da5;
+      margin-top: 0.5rem; }
+    .ui.vertical.stripe.features_section .ui.grid p {
+      font-size: 0.85em; }
+    .ui.vertical.stripe.features_section .ui.grid .ui.image {
+      width: 100px;
+      margin: 0 auto; }
+  .ui.vertical.stripe.partners_section .header_text {
+    background-image: url("../images/bollard.jpg"); }
   .ui.vertical.stripe.partners_section .bx-wrapper {
     position: absolute;
     top: 37%; }
@@ -2069,28 +2101,27 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
     .ui.vertical.stripe.partners_section h2 strong {
       color: #e350b8; }
   .ui.vertical.stripe .text.container {
-    text-align: center; }
+    text-align: center;
+    padding-top: 5rem; }
   .ui.vertical.stripe .floated.image {
     clear: both; }
-  .ui.vertical.stripe h3 {
-    font-size: 1.1em;
-    margin: 2em 0 1em;
-    font-weight: 400; }
-  .ui.vertical.stripe h4 {
-    font-size: 1.6em;
-    font-weight: 400;
-    margin: 0 0 1em;
-    color: #002da5; }
-    .ui.vertical.stripe h4 .ui.divider {
-      width: 40px;
-      margin: 1rem auto;
-      border-top: 2px solid rgba(227, 80, 184, 0.5);
-      border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
   .ui.vertical.stripe p {
     font-size: 1em;
     line-height: 1.5em; }
   .ui.vertical.stripe .horizontal.divider {
     margin: 3em 0em; }
+
+.header_text {
+  text-align: center;
+  padding: 7rem 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .header_text .text_color {
+    width: 30rem;
+    border-radius: 2px;
+    margin: 0 auto;
+    padding: 1.4rem; }
 
 .accordion {
   padding: 6rem 0;
@@ -2100,10 +2131,15 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
 
 .contact_text {
   margin: 0 !important; }
+  .contact_text .header_text {
+    background-image: url("../images/typewriter.jpg");
+    background-size: 100%;
+    background-position: bottom; }
+  .contact_text .ui.vertical.stripe {
+    padding: 0; }
 
 .contact_form {
-  margin: 0 !important;
-  background: linear-gradient(rgba(254, 254, 254, 0.5), rgba(254, 254, 254, 0.8)), url("../images/typewriter.jpg") bottom !important; }
+  margin: 0 !important; }
   .contact_form .accordion {
     padding: 4rem; }
     .contact_form .accordion .form {
@@ -2112,8 +2148,7 @@ body, p, h1, h2, h3, h4, h5, h6, a, span {
 
 .footer.segment {
   padding: 2em 0em;
-  font-size: 0.8rem;
-  background: #ffffff !important; }
+  font-size: 0.8rem; }
 
 .secondary.pointing.menu .toc.item {
   display: none; }

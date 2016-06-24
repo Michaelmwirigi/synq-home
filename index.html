@@ -25,7 +25,15 @@
 
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/supersized.3.2.7.js"></script>
-  
+  <script type="text/javascript" src="js/skrollr.min.js"></script>
+  <script type="text/javascript">
+    $(document)
+      .ready(function() {
+        skrollr.init({
+            smoothScrolling: false
+        });
+      })
+  </script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
@@ -85,32 +93,48 @@
       </h1>
       <h2>With coverage all over <strong>Africa</strong> and the <strong>Middle East</strong> and unbeatable flexible pricing.</h2>
       <div class="ui pink button">FIND OUT MORE</div>
-    </div>
-    <div class="ui image">
-      <img src="images/iphone_white_portrait.png">
-    </div>
+    </div>  
 
   </section>
-  <section class="ui vertical stripe segment" id="about">
-    <div class="ui text container">
+  <section class="ui vertical stripe segment about_section" id="about">
+    <div class="header_text">
       <h3>ABOUT SYNQ</h3>
       <h4>
         Synq
         <div class="ui divider"></div>
       </h4>
+    </div>
+    <div class="ui text container">
       <p>Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
     </div>
   </section>
 
   <section class="ui vertical stripe segment features_section" id="features">
-    <div class="ui text container">
-       <h3>FEATURES</h3>
-      <h4>
-        What defines us
-        <div class="ui divider"></div>
-      </h4>
+    <div class="header_text" data-bottom-top="background-position:0px -650px;"  data-top-bottom="background-position:0px -350px;">
+      <div class="text_color" data-top="background-color: rgba(28,28,28,.5);" data-bottom="background-color: rgba(28,28,28,0);">
+        <h3>FEATURES</h3>
+        <h4>
+          What defines us
+          <div class="ui divider"></div>
+        </h4>
+      </div>
     </div>
-    <div class="ui page centered grid">
+    <div class="ui page centered grid features_column">
+        <div class="five wide column">
+          <img class="ui image" src="images/reliable.png">
+          <h3>Reliable and available</h3>
+          <p>It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. </p>
+        </div>
+        <div class="five wide column">
+          <img class="ui image" src="images/presence.png">
+          <h3>On ground presence</h3>
+          <p>It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. </p>
+        </div>
+        <div class="five wide column">
+          <img class="ui image" src="images/industry.png">
+          <h3>Multi Industry</h3>
+          <p>It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. </p>
+        </div>
         <div class="five wide column">
           <img class="ui image" src="images/reliable.png">
           <h3>Reliable and available</h3>
@@ -130,12 +154,16 @@
   </section>
 
   <section class="ui vertical stripe segment partners_section" id="reach">
+    <div class="header_text"  data-bottom-top="background-position:0px -400px;" data-top-bottom="background-position:0px 00px;">
+      <div class="text_color"  data-top="background-color: rgba(28,28,28,.5);" data-bottom="background-color: rgba(28,28,28,0);">
+        <h3>PARTNERS/CARRIERS/COUNTRIES</h3>
+        <h4>
+          Our Footprint
+          <div class="ui divider"></div>
+        </h4>
+      </div>
+    </div>
     <div class="ui text container">
-       <h3>PARTNERS/CARRIERS/COUNTRIES</h3>
-      <h4>
-        Our Footprint
-        <div class="ui divider"></div>
-      </h4>
       <h2>With coverage all over <strong>Africa</strong> and the <strong>Middle East</strong> and unbeatable flexible pricing.</h2>
     </div>
 
@@ -177,23 +205,29 @@
       </div>
   </section>
 
-  <section class="ui page centered grid contact_text" id="contact_us">
+  <section class="ui centered grid contact_text" id="contact_us">
+    <div class="ui vertical stripe row  ">
+      <div class="header_text" data-bottom-top="background-position:0px -600px;"  data-top-bottom="background-position:0px -250px;">
+        <div class="text_color" data-top="background-color: rgba(28,28,28,.5);" data-bottom="background-color: rgba(28,28,28,0);">
+          <h4>
+            Say Hello
+            <div class="ui divider"></div>
+          </h4>
+        </div>
+      </div>
+    </div>
     <div class="ui vertical stripe segment">
       <div class="ui text container">
-        <h4>
-          Say Hello
-          <div class="ui divider"></div>
-        </h4>
         <p>It took years of gene splicing and combinatory DNA research, but our bananas can really dance. Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. </p>
       </div>
     </div>
   </section>
   <section class="ui page centered grid contact_form">
     <div class="ui accordion">
-      <div class="ui pink button title">
+     <!--  <div class="ui pink button title">
         CONTACT US
-      </div>
-        <form class="ui form content">
+      </div> -->
+        <form class="ui form active content">
           <div class="fields">
             <div class="eight wide field">
               <label>Name</label>
@@ -222,30 +256,29 @@
   </section>
 
 
-  <div class="ui vertical footer segment">
+  <div class="ui inverted vertical footer segment">
     <div class="ui container">
       <div class="ui stackable divided equal height stackable grid">
         <div class="three wide column">
-          <h4 class="ui header">About</h4>
-          <div class="ui link list">
+          <h4 class="ui inverted header">About</h4>
+          <div class="ui inverted link list">
             <a href="#" class="item">Sitemap</a>
           </div>
         </div>
         <div class="three wide column">
-          <h4 class="ui header">Services</h4>
-          <div class="ui link list">
+          <h4 class="ui inverted header">Services</h4>
+          <div class="ui inverted link list">
             <a href="#" class="item">Banana Pre-Order</a>
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui header">Footer Header</h4>
+          <h4 class="ui inverted header">Footer Header</h4>
           <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 </body>
 
 </html>

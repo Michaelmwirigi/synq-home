@@ -63,10 +63,13 @@ $(document)
           thumb_links       : 1,      // Individual thumb links for each slide
           thumbnail_navigation    :   0,      // Thumbnail navigation
           slides          :   [     // Slideshow Images
-                            {image : 'images/desert.jpg'},
-                            {image : 'images/cell-tower.jpg'},  
-                            {image : 'images/cell-tower2.jpg'}, 
-                            {image : 'images/phone.jpg'}, 
+                            {image : 'images/banner1.jpg'},
+                            {image : 'images/banner2.jpg'},  
+                            {image : 'images/banner3.jpg'}, 
+                            {image : 'images/banner4.jpg'}, 
+                            {image : 'images/banner5.jpg'},
+                            {image : 'images/banner7.jpg'},  
+                            {image : 'images/banner6.jpg'},   
                         ],
                         
           // Theme Options         
