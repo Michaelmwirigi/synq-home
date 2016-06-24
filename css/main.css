@@ -2057,6 +2057,8 @@ h4 {
     padding-top: 0; }
   .ui.vertical.stripe.features_section .header_text {
     background-image: url("../images/light.jpg"); }
+    .ui.vertical.stripe.features_section .header_text h4 {
+      color: #fff; }
   .ui.vertical.stripe.features_section .ui.grid {
     padding-top: 5rem; }
     .ui.vertical.stripe.features_section .ui.grid .column {
@@ -2071,6 +2073,8 @@ h4 {
       margin: 0 auto; }
   .ui.vertical.stripe.partners_section .header_text {
     background-image: url("../images/bollard.jpg"); }
+    .ui.vertical.stripe.partners_section .header_text h4 {
+      color: #fff; }
   .ui.vertical.stripe.partners_section .bx-wrapper {
     position: absolute;
     top: 37%; }
@@ -2135,6 +2139,8 @@ h4 {
     background-image: url("../images/typewriter.jpg");
     background-size: 100%;
     background-position: bottom; }
+    .contact_text .header_text h4 {
+      color: #fff; }
   .contact_text .ui.vertical.stripe {
     padding: 0; }
 

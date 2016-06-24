@@ -94,6 +94,9 @@ h3 {
   &.features_section{
     .header_text{
       background-image: url("../images/light.jpg");
+      h4{
+        color: #fff;
+      }
     }
     .ui.grid{
       padding-top: 5rem;
@@ -116,6 +119,9 @@ h3 {
   &.partners_section{
     .header_text{
       background-image: url("../images/bollard.jpg");
+      h4{
+        color: #fff;
+      }
     }
     .bx-wrapper{
       position: absolute;
@@ -199,6 +205,9 @@ h3 {
       background-image: url("../images/typewriter.jpg");
       background-size: 100%;
       background-position: bottom;
+      h4{
+        color: #fff;
+      }
     }
     .ui.vertical.stripe{
       padding: 0;
