@@ -98,10 +98,11 @@ h3 {
         color: $white;
       }
     }
-    .ui.grid{
+    .features_column{
       padding-top: 5rem;
       .column{
-        text-align: center;
+       padding-left: 4rem; 
+       padding-right: 4rem; 
       }
       h3{
         color: $blue;
@@ -175,11 +176,7 @@ h3 {
       }
     }
     .contact_form{
-      margin: 0 !important;
-      .form{
-        margin: 4rem 8rem;
-        text-align: left;
-      }
+     text-align: left;
     }
   }
 

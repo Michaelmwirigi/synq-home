@@ -2059,16 +2059,17 @@ h4 {
     background-image: url("../images/light.jpg"); }
     .ui.vertical.stripe.features_section .header_text h3 {
       color: #fff; }
-  .ui.vertical.stripe.features_section .ui.grid {
+  .ui.vertical.stripe.features_section .features_column {
     padding-top: 5rem; }
-    .ui.vertical.stripe.features_section .ui.grid .column {
-      text-align: center; }
-    .ui.vertical.stripe.features_section .ui.grid h3 {
+    .ui.vertical.stripe.features_section .features_column .column {
+      padding-left: 4rem;
+      padding-right: 4rem; }
+    .ui.vertical.stripe.features_section .features_column h3 {
       color: #002da5;
       margin-top: 0.5rem; }
-    .ui.vertical.stripe.features_section .ui.grid p {
+    .ui.vertical.stripe.features_section .features_column p {
       font-size: 0.85em; }
-    .ui.vertical.stripe.features_section .ui.grid .ui.image {
+    .ui.vertical.stripe.features_section .features_column .ui.image {
       width: 100px;
       margin: 0 auto; }
   .ui.vertical.stripe.partners_section .header_text {
@@ -2112,10 +2113,7 @@ h4 {
     .ui.vertical.stripe.contact_section .header_text h3 {
       color: #fff; }
   .ui.vertical.stripe.contact_section .contact_form {
-    margin: 0 !important; }
-    .ui.vertical.stripe.contact_section .contact_form .form {
-      margin: 4rem 8rem;
-      text-align: left; }
+    text-align: left; }
   .ui.vertical.stripe .text.container {
     text-align: center;
     padding-top: 5rem; }
