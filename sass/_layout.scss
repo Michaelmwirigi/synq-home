@@ -166,6 +166,23 @@ h3 {
       }
     }
   }
+
+  &.contact_section{
+    .header_text{
+      background-image: url("../images/typewriter.jpg");
+      h3{
+        color: $white;
+      }
+    }
+    .contact_form{
+      margin: 0 !important;
+      .form{
+        margin: 4rem 8rem;
+        text-align: left;
+      }
+    }
+  }
+
   .text.container{
     text-align: center;
     padding-top: 5rem;
@@ -195,41 +212,6 @@ h3 {
     padding: 1.4rem;
   }
 }
-.accordion{
-    padding: 6rem 0;
-    width: 100%;
-    .form{
-      margin: 6rem 0;
-    }
-  }
-  .contact_text{
-    margin: 0 !important;
-    .header_text{
-      background-image: url("../images/typewriter.jpg");
-      background-size: 100%;
-      background-position: bottom;
-      h3{
-        color: $white;
-      }
-    }
-    .ui.vertical.stripe{
-      padding: 0;
-      .text.container{
-        // padding: 0;
-      }
-    }
-  }
-  .contact_form{
-    margin: 0 !important;
-    // background: linear-gradient(rgba(254,254,254,.5), rgba(254,254,254,.8)), url("../images/typewriter.jpg") bottom !important;
-    .accordion{
-      padding: 4rem;
-      .form{
-        margin: 4rem 8rem;
-        text-align: left;
-      }
-    }
-  }
 
 .footer.segment {
   padding: 2em 0em;

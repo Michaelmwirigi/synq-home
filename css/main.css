@@ -2107,6 +2107,15 @@ h4 {
     font-weight: 100; }
     .ui.vertical.stripe.partners_section h2 strong {
       color: #e350b8; }
+  .ui.vertical.stripe.contact_section .header_text {
+    background-image: url("../images/typewriter.jpg"); }
+    .ui.vertical.stripe.contact_section .header_text h3 {
+      color: #fff; }
+  .ui.vertical.stripe.contact_section .contact_form {
+    margin: 0 !important; }
+    .ui.vertical.stripe.contact_section .contact_form .form {
+      margin: 4rem 8rem;
+      text-align: left; }
   .ui.vertical.stripe .text.container {
     text-align: center;
     padding-top: 5rem; }
@@ -2129,31 +2138,6 @@ h4 {
     border-radius: 2px;
     margin: 0 auto;
     padding: 1.4rem; }
-
-.accordion {
-  padding: 6rem 0;
-  width: 100%; }
-  .accordion .form {
-    margin: 6rem 0; }
-
-.contact_text {
-  margin: 0 !important; }
-  .contact_text .header_text {
-    background-image: url("../images/typewriter.jpg");
-    background-size: 100%;
-    background-position: bottom; }
-    .contact_text .header_text h3 {
-      color: #fff; }
-  .contact_text .ui.vertical.stripe {
-    padding: 0; }
-
-.contact_form {
-  margin: 0 !important; }
-  .contact_form .accordion {
-    padding: 4rem; }
-    .contact_form .accordion .form {
-      margin: 4rem 8rem;
-      text-align: left; }
 
 .footer.segment {
   padding: 2em 0em;
