@@ -1998,6 +1998,12 @@ body {
 .hidden.menu {
   display: none; }
 
+.ui.menu .toc.item {
+  display: none; }
+.ui.menu .right.item .item, .ui.menu .right.menu .item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
 h3 {
   font-size: 1.1em;
   margin: 2em 0 1em;
@@ -2140,9 +2146,6 @@ h4 {
 .footer.segment {
   padding: 2em 0em;
   font-size: 0.8rem; }
-
-.secondary.pointing.menu .toc.item {
-  display: none; }
 
 @media only screen and (max-width: 700px) {
   .ui.fixed.menu {

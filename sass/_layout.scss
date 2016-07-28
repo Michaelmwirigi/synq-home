@@ -14,6 +14,18 @@ body{
 .hidden.menu {
   display: none;
 }
+.ui.menu{
+  .toc.item{
+    display: none;
+  }
+  .right.item,.right.menu{
+    .item{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  } 
+}
+
 
 h3 {
     font-size: 1.1em;
@@ -216,9 +228,6 @@ h3 {
   // background: #ffffff !important;
 }
 
-.secondary.pointing.menu .toc.item {
-  display: none;
-}
 
 @media only screen and (max-width: 700px) {
   .ui.fixed.menu {
