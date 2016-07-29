@@ -58,9 +58,15 @@ h3 {
   }
   .ui.menu {
     border-bottom: none !important;
+    font-size: 1.1rem;
     .item.logo img {
       margin-right: 1em;
-      width: 80px;
+      width: 100px;
+    }
+    .right.item .item:hover{
+      box-shadow: none;
+      border-color: #002da5;
+      color: #002da5 !important;
     }
     .right.item{
       align-self: flex-start;
@@ -153,12 +159,8 @@ h3 {
         h3{
           margin: 1rem;
           font-style: italic;
-          font-size: 1.2rem;
-        }
-        .header{
-          margin-top: 0;
           font-weight: 600;
-
+          font-size: 1.2rem;
         }
         img{
           height: 85px;
