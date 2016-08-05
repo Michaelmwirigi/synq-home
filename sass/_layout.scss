@@ -5,11 +5,11 @@ body, p, h1, h2, h3, h4, h5, h6, a, span{
 body{
   height: inherit !important;
 }
-.ui.pink.button{
+.ui.brown.button{
   font-weight: 100;
   font-size: 1em;
   color: $white;
-  background-color: $pink;
+  background-color: $orange;
 }
 .hidden.menu {
   display: none;
@@ -29,19 +29,20 @@ body{
 
 h3 {
     font-size: 1.1em;
-    margin: 2em 0 1em;
+    margin: 2rem 0 1rem;
     font-weight: 400;
+    color: $brown;
   }
   h4{
     font-size: 1.6em;
     font-weight: 400;
     margin:0 0 1em;
-    color: $blue;
+    color: $orange;
     .ui.divider{
       width: 40px;
       margin:1rem auto;
-      border-top: 2px solid rgba(227,80,184,0.5) !important;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+      // border-top: 2px solid rgba(227,80,184,0.5) !important;
+      // border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
     }
   }
 
@@ -50,11 +51,11 @@ h3 {
     height: 100vh;
     // background: linear-gradient(rgba(254,254,254,.5), rgba(254,254,254,.8)), url("../images/desert.jpg") bottom !important;
     background-size: cover !important;
-     min-height: 600px;
+    min-height: 600px;
     padding: 0;
   }
   #supersized{
-    opacity: 0.4;
+    opacity: 0.5;
   }
   .ui.menu {
     border-bottom: none !important;
@@ -77,7 +78,7 @@ h3 {
     margin-top: 3em;
     margin-bottom: 0em;
     font-size: 2.2em;
-    color: $blue;
+    color: $orange;
     font-weight: 100;
   }
   h2 {
@@ -88,7 +89,7 @@ h3 {
     padding: 0 10%;
   }
   strong{
-    color: $pink;
+    color: $brown;
   }
   .button{
     margin: 1rem 0;
@@ -123,7 +124,7 @@ h3 {
        padding-right: 4rem; 
       }
       h3{
-        color: $blue;
+        color: $brown;
         margin-top: 0.5rem;
       }
       p{
@@ -148,11 +149,12 @@ h3 {
       .testimonial{
         height: 100%;
         .ui.container{
-          background: radial-gradient(rgba(21, 21, 21, 0.9), rgba(0, 0, 0, 0.3));
-          border-radius: 10px;
+          // background: radial-gradient(rgba(21, 21, 21, 0.9), rgba(0, 0, 0, 0.3));
+          background-color: rgba(28,28,28,.5);
+          // border-radius: 10px;
           padding-bottom: 1rem;
           padding-top: 1rem;
-          margin-top: 10rem;
+          margin-top: 12rem;
           width: 34rem;
           color: $black;
         }
@@ -170,7 +172,8 @@ h3 {
     }
     canvas{
       width: inherit;
-      height:15rem;
+      height:calc(100vh - 3rem);
+      min-height: 7rem;
       padding:0;
       margin:0;
       overflow: hidden;
@@ -179,7 +182,7 @@ h3 {
       font-size: 1em;
       font-weight: 100;
       strong{
-        color: $pink;
+        color: $brown;
       }
     }
   }

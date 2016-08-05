@@ -65,7 +65,7 @@ $(document)
           slides          :   [     // Slideshow Images
                             {image : 'images/banner1.jpg'},
                             {image : 'images/banner2.png'},  
-                            // {image : 'images/banner3.jpg'}, 
+                            {image : 'images/banner6.jpg'}, 
                             {image : 'images/banner4.jpg'}, 
                             {image : 'images/banner5.jpg'},
                             {image : 'images/banner7.jpg'},  
