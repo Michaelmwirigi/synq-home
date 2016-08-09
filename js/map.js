@@ -26,7 +26,7 @@ $(document)
 		var geometry = new THREE.Geometry();
 		var material = new THREE.PointsMaterial({
 			size: 2,
-			color: 0x002da5,
+			color: 0xd76e26,
 			sizeAttenuation: true
 		});
 		for (var y = 0, y2 = imagedata.height; y < y2; y += 2) {
