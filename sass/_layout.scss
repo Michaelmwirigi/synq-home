@@ -75,7 +75,7 @@ h3 {
     font-size: 1.1rem;
     .item.logo img {
       margin-right: 1em;
-      width: 100px;
+      width: 200px;
     }
     .right.item .item:hover{
       box-shadow: none;
@@ -83,6 +83,7 @@ h3 {
       color: $orange !important;
     }
     .right.item{
+      margin-top: 2.1rem;
       align-self: flex-start;
       .item{
         color: #ffffff;
@@ -101,11 +102,11 @@ h3 {
     font-size: 1.2em;
     line-height: 1.5em;
     font-weight: 100;
-    color: $black;
+    color: $white;
     padding: 0 10%;
   }
   strong{
-    color: $brown;
+    color: $orange;
   }
   .button{
     margin: 1rem 0;
@@ -233,15 +234,16 @@ h3 {
 }
 .header_text{
   text-align: center;
-  padding: 7rem 0;
   width: 100%;
+  // height: 20rem;
   background-repeat: no-repeat;
   background-size: 100%;
   .text_color{
-    width: 30rem;
+    width: 100%;
+    height: 100%;
+    padding: 7rem 1.4rem;
     border-radius: 2px;
     margin: 0 auto;
-    padding: 1.4rem;
   }
 }
 
