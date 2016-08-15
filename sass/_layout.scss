@@ -18,6 +18,18 @@ body{
   .toc.item{
     display: none;
   }
+  .item.logo2{
+    padding: 0;
+    border: 0 !important;
+    box-shadow: none;
+    &:before{
+      content: none;
+    }
+    img{
+      width: 110px;
+      border: none !important;
+    }
+  }
   .right.item,.right.menu{
     .item{
       padding-left: 1.5rem;
@@ -34,10 +46,10 @@ h3 {
     color: $brown;
   }
   h4{
-    font-size: 1.6em;
+    font-size: 2.6em;
     font-weight: 400;
     margin:0 0 1em;
-    color: $orange;
+    color: $light_orange;
     .ui.divider{
       width: 40px;
       margin:1rem auto;
@@ -241,7 +253,7 @@ h3 {
   .text_color{
     width: 100%;
     height: 100%;
-    padding: 7rem 1.4rem;
+    padding: 6rem 1.4rem;
     border-radius: 2px;
     margin: 0 auto;
   }

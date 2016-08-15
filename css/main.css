@@ -2000,6 +2000,15 @@ body {
 
 .ui.menu .toc.item {
   display: none; }
+.ui.menu .item.logo2 {
+  padding: 0;
+  border: 0 !important;
+  box-shadow: none; }
+  .ui.menu .item.logo2:before {
+    content: none; }
+  .ui.menu .item.logo2 img {
+    width: 110px;
+    border: none !important; }
 .ui.menu .right.item .item, .ui.menu .right.menu .item {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
@@ -2011,10 +2020,10 @@ h3 {
   color: #61390d; }
 
 h4 {
-  font-size: 1.6em;
+  font-size: 2.6em;
   font-weight: 400;
   margin: 0 0 1em;
-  color: #d76e26; }
+  color: #e4a800; }
   h4 .ui.divider {
     width: 40px;
     margin: 1rem auto; }
@@ -2152,7 +2161,7 @@ h4 {
   .header_text .text_color {
     width: 100%;
     height: 100%;
-    padding: 7rem 1.4rem;
+    padding: 6rem 1.4rem;
     border-radius: 2px;
     margin: 0 auto; }
 
