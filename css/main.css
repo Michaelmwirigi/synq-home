@@ -2106,7 +2106,11 @@ h4 {
       color: #fff; }
   .ui.vertical.stripe.partners_section .bx-wrapper {
     position: absolute;
-    top: 37%; }
+    top: 48%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; }
     .ui.vertical.stripe.partners_section .bx-wrapper .testimonial {
       height: 100%; }
       .ui.vertical.stripe.partners_section .bx-wrapper .testimonial .ui.container {
@@ -2116,14 +2120,21 @@ h4 {
         margin-top: 12rem;
         width: 34rem;
         color: #000; }
-      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial h3 {
-        margin: 1rem;
-        font-style: italic;
-        font-weight: 600;
-        color: #ffffff;
-        font-size: 1.2rem; }
       .ui.vertical.stripe.partners_section .bx-wrapper .testimonial img {
         height: 85px; }
+  .ui.vertical.stripe.partners_section .map_text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    .ui.vertical.stripe.partners_section .map_text h3 {
+      margin: 1rem;
+      font-style: italic;
+      font-weight: 600;
+      color: #000000;
+      font-size: 1.4rem; }
   .ui.vertical.stripe.partners_section canvas {
     width: inherit;
     height: calc(100vh - 3rem);

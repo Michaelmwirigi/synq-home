@@ -174,7 +174,12 @@ h3 {
     }
     .bx-wrapper{
       position: absolute;
-      top: 37%;
+      top: 48%;
+      // left: 18%;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
       .testimonial{
         height: 100%;
         .ui.container{
@@ -187,16 +192,24 @@ h3 {
           width: 34rem;
           color: $black;
         }
-        h3{
-          margin: 1rem;
-          font-style: italic;
-          font-weight: 600;
-          color: #ffffff;
-          font-size: 1.2rem;
-        }
         img{
           height: 85px;
         }
+      }
+    }
+    .map_text{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      h3{
+        margin: 1rem;
+        font-style: italic;
+        font-weight: 600;
+        color: #000000;
+        font-size: 1.4rem;
       }
     }
     canvas{

@@ -18,7 +18,12 @@ $(document)
       auto: true,
       controls: false,
       pager: false,
-      pause: 18000
+      pause: 12000,
+      slideWidth: 250,  
+      minSlides: 2,
+      maxSlides: 3,
+      moveSlides: 1,
+      slideMargin: 10
     });
 
     // create sidebar and attach to menu open
