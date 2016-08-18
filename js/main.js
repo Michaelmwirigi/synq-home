@@ -16,12 +16,12 @@ $(document)
 
     $('.testimonial').bxSlider({
       auto: true,
-      // controls: false,
-      // pager: false,
+      controls: false,
+      pager: false,
       pause: 1000,
       slideWidth: 250,  
-      minSlides: 3,
-      maxSlides: 4,
+      minSlides: 2,
+      maxSlides: 3,
       moveSlides: 1,
       // slideMargin: 10
     });
