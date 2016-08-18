@@ -16,14 +16,14 @@ $(document)
 
     $('.testimonial').bxSlider({
       auto: true,
-      controls: false,
-      pager: false,
-      pause: 12000,
+      // controls: false,
+      // pager: false,
+      pause: 1000,
       slideWidth: 250,  
-      minSlides: 2,
-      maxSlides: 3,
+      minSlides: 3,
+      maxSlides: 4,
       moveSlides: 1,
-      slideMargin: 10
+      // slideMargin: 10
     });
 
     // create sidebar and attach to menu open
