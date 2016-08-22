@@ -18,7 +18,7 @@ $(document)
       auto: true,
       controls: false,
       pager: false,
-      pause: 1000,
+      pause: 7000,
       slideWidth: 250,  
       minSlides: 2,
       maxSlides: 3,
