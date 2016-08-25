@@ -1990,6 +1990,10 @@ body {
   height: inherit !important;
   color: #2b2b2b; }
 
+p {
+  text-align: justify;
+  text-align-last: center; }
+
 .ui.brown.button {
   font-weight: 100;
   font-size: 1em;
