@@ -68,13 +68,9 @@ $(document)
           thumb_links       : 1,      // Individual thumb links for each slide
           thumbnail_navigation    :   0,      // Thumbnail navigation
           slides          :   [     // Slideshow Images
-                            {image : 'images/banner1.jpg'},
                             {image : 'images/banner2.png'},  
                             {image : 'images/banner6.jpg'}, 
-                            {image : 'images/banner4.jpg'}, 
-                            {image : 'images/banner5.jpg'},
-                            {image : 'images/banner7.jpg'},  
-                            // {image : 'images/banner6.jpg'},   
+                            {image : 'images/banner4.jpg'},   
                         ],
                         
           // Theme Options         
