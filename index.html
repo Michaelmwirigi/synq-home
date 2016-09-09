@@ -42,7 +42,7 @@
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/map.js"></script>
 
-  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
   
   
 </head>
@@ -259,7 +259,7 @@
       </div>
     </div>
     <div class="ui text container">
-      <form class="ui form active content contact_form">
+      <form action="//formspree.io/connect@synqafrica.com" method="post" class="ui form active content contact_form">
         <div class="fields">
           <div class="eight wide field">
             <label>Name</label>
@@ -279,40 +279,16 @@
           <label>Message</label>
             <textarea type="text" name="message" placeholder="Talk to us"></textarea>
         </div>
+      <!--   <div class="field">
+          <div class="g-recaptcha" data-sitekey="6LdLuykTAAAAAJFBN8HPatQ07s56evu8NDxw1gPu"></div>
+        </div> -->
         <div class="field">
-            <div class="g-recaptcha" data-sitekey="6LdLuykTAAAAAJFBN8HPatQ07s56evu8NDxw1gPu"></div>
-        </div>
-        <div class="field">
-          <button class="ui submit brown button">Submit</button>
+          <button type="submit" class="ui submit brown button">Submit</button>
         </div>
         </div>
       </form>
     </div>
   </section>
-
-
- <!--  <div class="ui inverted vertical footer segment">
-    <div class="ui container">
-      <div class="ui stackable divided equal height stackable grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
 </div>
 </body>
 
