@@ -14,17 +14,17 @@ $(document)
       })
     ;
 
-    $('.testimonial').bxSlider({
-      auto: true,
-      controls: false,
-      pager: false,
-      pause: 7000,
-      slideWidth: 250,  
-      minSlides: 2,
-      maxSlides: 3,
-      moveSlides: 1,
-      // slideMargin: 10
-    });
+    // $('.testimonial').bxSlider({
+    //   auto: true,
+    //   controls: false,
+    //   pager: false,
+    //   pause: 7000,
+    //   slideWidth: 170,  
+    //   minSlides: 2,
+    //   maxSlides: 3,
+    //   moveSlides: 1,
+    //   // slideMargin: 10
+    // });
 
     // create sidebar and attach to menu open
     $('.ui.sidebar')

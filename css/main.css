@@ -2084,10 +2084,15 @@ h4 {
 .ui.vertical.stripe {
   background: #fff;
   padding: 0em 0em 5em; }
-  .ui.vertical.stripe.about_section .header_text {
-    padding: 3rem 0; }
-  .ui.vertical.stripe.about_section .text.container {
-    padding-top: 0; }
+  .ui.vertical.stripe.about_section {
+    padding-bottom: 4rem; }
+    .ui.vertical.stripe.about_section .header_text {
+      padding: 3rem 0 2rem; }
+      .ui.vertical.stripe.about_section .header_text h3 {
+        color: #d76e26; }
+    .ui.vertical.stripe.about_section .text.container {
+      padding-top: 0;
+      max-width: 730px !important; }
   .ui.vertical.stripe.features_section .header_text {
     background-image: url("../images/light.jpg"); }
     .ui.vertical.stripe.features_section .header_text h3 {
@@ -2109,40 +2114,41 @@ h4 {
     background-image: url("../images/bollard.jpg"); }
     .ui.vertical.stripe.partners_section .header_text h3 {
       color: #fff; }
-  .ui.vertical.stripe.partners_section .bx-wrapper {
+  .ui.vertical.stripe.partners_section .testimonial {
+    width: 87%;
     position: absolute;
-    top: 48%;
+    top: 66%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto; }
-    .ui.vertical.stripe.partners_section .bx-wrapper .testimonial {
-      height: 100%; }
-      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial .ui.container {
-        background-color: rgba(28, 28, 28, 0.5);
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-        margin-top: 12rem;
-        width: 34rem;
-        color: #000; }
-      .ui.vertical.stripe.partners_section .bx-wrapper .testimonial img {
-        height: 85px; }
+    .ui.vertical.stripe.partners_section .testimonial .ui.menu {
+      background-color: rgba(28, 28, 28, 0.5);
+      border-radius: 0; }
+      .ui.vertical.stripe.partners_section .testimonial .ui.menu .item img {
+        height: 70px;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        transition: all 0.4s; }
+        .ui.vertical.stripe.partners_section .testimonial .ui.menu .item img:hover {
+          transform: scale(1.1); }
   .ui.vertical.stripe.partners_section .map_text {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    right: 0;
+    padding-top: 4rem !important;
     margin-left: auto;
     margin-right: auto; }
     .ui.vertical.stripe.partners_section .map_text h3 {
       margin: 1rem;
-      font-weight: 600;
       color: #000000;
       font-size: 1.4rem; }
+  .ui.vertical.stripe.partners_section .map_segment {
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto; }
   .ui.vertical.stripe.partners_section canvas {
-    width: inherit;
-    height: calc(100vh - 3rem);
-    min-height: 7rem;
+    height: inherit !important;
+    width: inherit !important;
     padding: 0;
     margin: 0;
     overflow: hidden; }
