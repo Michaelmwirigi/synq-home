@@ -11,6 +11,9 @@ p{
   text-align: justify;
   text-align-last: center;
 }
+.mobile_only{
+  display: none !important;
+}
 .ui.brown.button{
   font-weight: 100;
   font-size: 1em;
